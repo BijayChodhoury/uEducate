@@ -220,3 +220,18 @@ html{
     height: 4px;
     margin: 5px 3px;
 }
+
+
+ul.auth-form{
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.auth-form li input{
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
