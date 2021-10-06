@@ -42,8 +42,8 @@
                     our future in a progressing way</p>
 
                 <div class="buttons">
-                    <button class="btn" id="btn-pay">Subscribe</button>
-                    <button class="btn" onclick="window.open('https://www.youtube.com/watch?v=iG9CE55wbtY&list=PLOGi5-fAu8bGiEvsxHyAvT8oIwkV8aOVk&index=1');">Watch Videos</button>
+                    <button class="btn" id="btn-signup">Sign Up</button>
+                    <button class="btn" id="btn-login">Login</button>
                 </div>
             </div>
 
@@ -133,16 +133,18 @@
         </p>
     </footer>
 
+    
 
     <script src="js/resp.js"></script>
-
-
     <script type="text/javascript">
-        
-        document.getElementById("btn-pay").onclick = function(){
-        location.href = "pay.html";
+
+        document.getElementById("btn-signup").onclick = function(){
+            location.href = "signup.html";
         };
 
+        document.getElementById("btn-login").onclick = function(){
+            location.href = "login.html";
+        };
     </script>
     
 </body>
