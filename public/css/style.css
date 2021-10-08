@@ -250,3 +250,14 @@ ul.pay-form li a{
     border: 2px solid grey;
     border-radius: 9px;
 }
+
+.watch-sm-v{
+    padding: 10px;
+}
+
+a.subj-head{
+    color: white;
+    margin: 5%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}

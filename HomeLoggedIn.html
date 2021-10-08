@@ -43,7 +43,8 @@
 
                 <div class="buttons">
                     <button class="btn" id="btn-pay">Subscribe</button>
-                    <button class="btn" onclick="window.open('https://www.youtube.com/watch?v=iG9CE55wbtY&list=PLOGi5-fAu8bGiEvsxHyAvT8oIwkV8aOVk&index=1');">Watch Videos</button>
+                    <!-- <button class="btn" onclick="window.open('https://www.youtube.com/watch?v=iG9CE55wbtY&list=PLOGi5-fAu8bGiEvsxHyAvT8oIwkV8aOVk&index=1');">Watch Videos</button> -->
+                    <button class="btn" id="watch-v">Watch Videos</button>
                 </div>
             </div>
 
@@ -141,6 +142,10 @@
         
         document.getElementById("btn-pay").onclick = function(){
         location.href = "pay.html";
+        };
+        
+        document.getElementById("watch-v").onclick = function(){
+        location.href = "studyMV.html";
         };
 
     </script>
